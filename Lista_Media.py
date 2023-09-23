@@ -22,13 +22,12 @@ while solicita_notas:
 for aluno in alunos:
     print("Aluno: ",aluno)
     notas_aluno = notas[alunos.index(aluno)]
-    quantidade_notas = len(notas_aluno)
     
     soma = 0
     for nota in notas_aluno:
         soma += nota
         print("Nota: ", nota)
 
-    media = soma / quantidade_notas
+    media = soma / len(notas_aluno)
     
     print("A media é:",media)
