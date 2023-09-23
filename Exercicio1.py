@@ -1,4 +1,4 @@
-# Exercicio 1
+# Sequencia de numeros
 
 maximo = int(input("Digite o numero maximo: "))
 ordem = input("Qual a ordem que deseja imprimir o numero C/D: ")
