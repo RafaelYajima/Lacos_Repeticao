@@ -19,9 +19,8 @@ while solicita_notas:
     continua = input("Deseja continuar? (S/N) ")
     if continua == "N": solicita_notas = False
 
-for aluno in alunos:
+for indice, aluno in enumerate(alunos):
     print("Aluno: ",aluno)
-    notas_aluno = notas[alunos.index(aluno)]
     
     soma = 0
     for nota in notas_aluno:
